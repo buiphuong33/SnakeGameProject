@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1715870397 source:c:\snake\commonfunc.cpp
+	"CommonFunc.h"
+
+1715872177 c:\snake\commonfunc.h
+	<iostream>
+	<vector>
+	<string>
+	<ctime>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+
+1715870397 source:c:\snake\food.cpp
+	"Food.h"
+
+1715871769 c:\snake\food.h
+	"CommonFunc.h"
+
+1715928112 source:c:\snake\main.cpp
+	"CommonFunc.h"
+	"Snake.h"
+	"Object.h"
+	"Food.h"
+	"Text.h"
+
+1715926217 c:\snake\snake.h
+	"CommonFunc.h"
+
+1715872177 c:\snake\object.h
+	"CommonFunc.h"
+
+1715872177 c:\snake\text.h
+	"CommonFunc.h"
+
+1715870397 source:c:\snake\object.cpp
+	"Object.h"
+
+1715927879 source:c:\snake\text.cpp
+	"Text.h"
+
+1715926129 source:c:\snake\snake.cpp
+	"Snake.h"
+	<thread>
+	<chrono>
+
